@@ -1,0 +1,738 @@
+[2025-07-10 15:51:51] Connected to server version 1.0.0
+[2025-07-10 15:51:51] Sending registration for user: demo_user
+[2025-07-10 15:53:31] Connected to server version 1.0.0
+[2025-07-10 15:53:31] Sending registration for user: demo_user
+[2025-07-10 15:56:49] Connected to server version 1.0.0
+[2025-07-10 15:56:49] Sending registration for user: demo_user
+[2025-07-10 16:02:19] Connected to server version 1.0.0
+[2025-07-10 16:02:19] Sending registration for user: demo_user
+[2025-07-10 16:04:33] Connected to server version 1.0.0
+[2025-07-10 16:04:33] Sending registration for user: demo_user
+[2025-07-10 16:04:35] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752156273.7428925}
+[2025-07-10 16:07:31] Connected to server version 1.0.0
+[2025-07-10 16:07:31] Sending registration for user: demo_user
+[2025-07-10 16:07:36] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752156451.3958085}
+[2025-07-10 16:13:12] Connected to server version 1.0.0
+[2025-07-10 16:13:12] Sending registration for user: demo_user
+[2025-07-10 16:13:16] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752156793.2299452}
+[2025-07-10 16:15:21] Connected to server version 1.0.0
+[2025-07-10 16:15:21] Sending registration for user: demo_user
+[2025-07-10 16:15:21] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752156921.4976058}
+[2025-07-10 16:29:35] Connected to server version 1.0.0
+[2025-07-10 16:29:35] Sending registration for user: demo_user
+[2025-07-10 16:29:38] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752157778.7000873}
+[2025-07-10 16:36:09] Connected to server version 1.0.0
+[2025-07-10 16:36:09] Sending registration for user: demo_user
+[2025-07-10 16:36:09] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158169.9872997}
+[2025-07-10 16:37:08] Connected to server version 1.0.0
+[2025-07-10 16:37:08] Sending registration for user: demo_user
+[2025-07-10 16:37:09] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158229.0962076}
+[2025-07-10 16:40:37] Connected to server version 1.0.0
+[2025-07-10 16:40:37] Sending registration for user: demo_user
+[2025-07-10 16:40:37] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158437.7898986}
+[2025-07-10 16:40:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158448.0077875}
+[2025-07-10 16:40:58] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158458.0187492}
+[2025-07-10 16:41:08] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158468.0303664}
+[2025-07-10 16:41:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158478.0396962}
+[2025-07-10 16:43:19] Connected to server version 1.0.0
+[2025-07-10 16:43:19] Sending registration for user: demo_user
+[2025-07-10 16:43:20] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158600.1666152}
+[2025-07-10 16:43:51] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158631.0926924}
+[2025-07-10 16:46:17] Connected to server version 1.0.0
+[2025-07-10 16:46:17] Sending registration for user: demo_user
+[2025-07-10 16:46:17] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158777.9427748}
+[2025-07-10 16:46:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158808.644564}
+[2025-07-10 16:49:43] Connected to server version 1.0.0
+[2025-07-10 16:49:43] Sending registration for user: demo_user
+[2025-07-10 16:49:43] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752158983.4280634}
+[2025-07-10 16:50:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159014.3767698}
+[2025-07-10 16:50:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159044.406552}
+[2025-07-10 16:51:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159074.437681}
+[2025-07-10 16:51:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159104.4675844}
+[2025-07-10 16:52:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159134.4966476}
+[2025-07-10 16:52:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159164.5262835}
+[2025-07-10 16:53:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159194.5556622}
+[2025-07-10 16:53:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159224.584681}
+[2025-07-10 16:54:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159254.6156693}
+[2025-07-10 16:54:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159284.6464536}
+[2025-07-10 16:55:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159314.6780722}
+[2025-07-10 16:56:38] Connected to server version 1.0.0
+[2025-07-10 16:56:38] Sending registration for user: demo_user
+[2025-07-10 16:56:38] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159398.4317665}
+[2025-07-10 17:00:46] Connected to server version 1.0.0
+[2025-07-10 17:00:46] Sending registration for user: demo_user
+[2025-07-10 17:00:46] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159646.7185457}
+[2025-07-10 17:01:01] Connected to server version 1.0.0
+[2025-07-10 17:01:01] Sending registration for user: myuser2
+[2025-07-10 17:01:02] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752159662.2511852}
+[2025-07-10 17:01:03] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752159663.1943982}
+[2025-07-10 17:01:17] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159677.208662}
+[2025-07-10 17:06:31] Connected to server version 1.0.0
+[2025-07-10 17:06:31] Sending registration for user: demo_user
+[2025-07-10 17:06:32] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752159992.2476182}
+[2025-07-10 17:06:37] Connected to server version 1.0.0
+[2025-07-10 17:06:37] Sending registration for user: demo_user
+[2025-07-10 17:07:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160023.087734}
+[2025-07-10 17:07:33] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160053.1155775}
+[2025-07-10 17:08:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160083.1447642}
+[2025-07-10 17:08:33] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160113.1735835}
+[2025-07-10 17:08:43] Connected to server version 1.0.0
+[2025-07-10 17:08:43] Sending registration for user: myuser2
+[2025-07-10 17:08:43] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752160123.807375}
+[2025-07-10 17:08:43] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160123.8075411}
+[2025-07-10 17:09:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160143.202689}
+[2025-07-10 17:09:14] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160154.215357}
+[2025-07-10 17:09:33] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160173.2336736}
+[2025-07-10 17:09:44] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160184.244593}
+[2025-07-10 17:10:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160203.2636802}
+[2025-07-10 17:10:14] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160214.2755108}
+[2025-07-10 17:10:33] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160233.2935944}
+[2025-07-10 17:10:44] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160244.3208911}
+[2025-07-10 17:10:51] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752160251.2460673}
+[2025-07-10 17:10:55] Connected to server version 1.0.0
+[2025-07-10 17:10:55] Sending registration for user: myuser2
+[2025-07-10 17:10:55] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752160255.4006717}
+[2025-07-10 17:10:55] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160255.4008312}
+[2025-07-10 17:11:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160263.3407896}
+[2025-07-10 17:11:19] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752160279.555732}
+[2025-07-10 17:11:20] Connected to server version 1.0.0
+[2025-07-10 17:11:20] Sending registration for user: myuser2
+[2025-07-10 17:11:21] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752160281.0675206}
+[2025-07-10 17:11:21] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160281.0676565}
+[2025-07-10 17:11:33] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160293.3706725}
+[2025-07-10 17:11:51] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160311.3881462}
+[2025-07-10 17:12:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160323.4006433}
+[2025-07-10 17:12:05] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752160325.3903177}
+[2025-07-10 17:12:48] Connected to server version 1.0.0
+[2025-07-10 17:12:48] Sending registration for user: demo_user
+[2025-07-10 17:12:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160368.302623}
+[2025-07-10 17:12:54] Connected to server version 1.0.0
+[2025-07-10 17:12:54] Sending registration for user: myuser2
+[2025-07-10 17:12:55] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752160375.0937293}
+[2025-07-10 17:12:55] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160375.0938983}
+[2025-07-10 17:13:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160398.4624095}
+[2025-07-10 17:13:25] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160405.4695547}
+[2025-07-10 17:13:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160428.4943345}
+[2025-07-10 17:13:55] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160435.5015976}
+[2025-07-10 17:14:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160458.5235758}
+[2025-07-10 17:14:25] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160465.5306451}
+[2025-07-10 17:14:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160488.5536542}
+[2025-07-10 17:14:55] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160495.561526}
+[2025-07-10 17:15:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160518.5862036}
+[2025-07-10 17:15:25] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160525.5936697}
+[2025-07-10 17:15:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160548.6172915}
+[2025-07-10 17:15:55] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160555.625773}
+[2025-07-10 17:16:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160578.6523142}
+[2025-07-10 17:16:25] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160585.6597862}
+[2025-07-10 17:16:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160608.6846821}
+[2025-07-10 17:16:55] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752160615.6925912}
+[2025-07-10 17:17:09] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752160629.895645}
+[2025-07-10 17:17:13] Connected to server version 1.0.0
+[2025-07-10 17:17:13] Sending registration for user: myuser2
+[2025-07-10 17:17:13] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752160633.9552388}
+[2025-07-10 17:17:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160638.9045968}
+[2025-07-10 17:17:37] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752160657.322143}
+[2025-07-10 17:17:48] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160668.939647}
+[2025-07-10 17:18:18] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160698.9705913}
+[2025-07-10 17:18:49] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160729.0008566}
+[2025-07-10 17:19:19] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160759.0296774}
+[2025-07-10 17:19:49] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160789.0586474}
+[2025-07-10 17:20:19] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160819.0896904}
+[2025-07-10 17:20:49] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752160849.1216395}
+[2025-07-10 17:21:02] Connected to server version 1.0.0
+[2025-07-10 17:21:02] Sending registration for user: myuser2
+[2025-07-10 17:23:46] Connected to server version 1.0.0
+[2025-07-10 17:23:46] Sending registration for user: myuser2
+[2025-07-10 17:23:46] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161026.5186663}
+[2025-07-10 17:24:16] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161056.5416713}
+[2025-07-10 17:24:46] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161086.571466}
+[2025-07-10 17:25:14] Connected to server version 1.0.0
+[2025-07-10 17:25:14] Sending registration for user: demo_user
+[2025-07-10 17:25:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161114.5200157}
+[2025-07-10 17:25:17] Connected to server version 1.0.0
+[2025-07-10 17:25:17] Sending registration for user: myuser2
+[2025-07-10 17:25:17] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752161117.9278753}
+[2025-07-10 17:25:17] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161117.928012}
+[2025-07-10 17:25:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161144.8707194}
+[2025-07-10 17:25:48] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161148.875678}
+[2025-07-10 17:26:14] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161174.9026668}
+[2025-07-10 17:26:18] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161178.9074209}
+[2025-07-10 17:26:44] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161204.9326618}
+[2025-07-10 17:26:48] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752161208.9363413}
+[2025-07-10 17:30:07] Connected to server version 1.0.0
+[2025-07-10 17:30:07] Sending registration for user: demo_user
+[2025-07-10 17:30:22] Connected to server version 1.0.0
+[2025-07-10 17:30:22] Sending registration for user: myuser2
+[2025-07-10 17:33:42] Connected to server version 1.0.0
+[2025-07-10 17:33:42] Sending registration for user: demo_user
+[2025-07-10 17:33:45] Connected to server version 1.0.0
+[2025-07-10 17:33:45] Sending registration for user: myuser2
+[2025-07-10 17:35:20] Sent private message to user2: test
+[2025-07-10 17:35:20] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161622.4056125}
+[2025-07-10 17:35:20] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752161626.0928497}
+[2025-07-10 17:35:20] Received private_message: {'type': 'private_message', 'sender': 'myuser2', 'content': 'Hello there friend!!!', 'encrypted': False, 'signature': None, 'timestamp': 1752161626.1581173}
+[2025-07-10 17:35:20] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752161626.1591816}
+[2025-07-10 17:35:20] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161632.7381434}
+[2025-07-10 17:35:20] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752161642.7477777}
+[2025-07-10 17:38:06] Connected to server version 1.0.0
+[2025-07-10 17:38:06] Sending registration for user: demo_user
+[2025-07-10 17:38:10] Connected to server version 1.0.0
+[2025-07-10 17:38:10] Sending registration for user: myuser2
+[2025-07-10 17:38:54] Connected to server version 1.0.0
+[2025-07-10 17:38:54] Sending registration for user: myuser2
+[2025-07-10 17:39:11] Connected to server version 1.0.0
+[2025-07-10 17:39:11] Sending registration for user: demo_user
+[2025-07-10 17:39:15] Connected to server version 1.0.0
+[2025-07-10 17:39:15] Sending registration for user: myuser2
+[2025-07-10 17:40:35] Connected to server version 1.0.0
+[2025-07-10 17:40:35] Sending registration for user: myuser2
+[2025-07-10 17:41:51] Connected to server version 1.0.0
+[2025-07-10 17:41:51] Sending registration for user: demo_user
+[2025-07-10 17:43:06] Connected to server version 1.0.0
+[2025-07-10 17:43:06] Sending registration for user: myuser2
+[2025-07-10 17:43:11] Sent private message to myuser2: testmessage
+[2025-07-10 17:44:03] Connected to server version 1.0.0
+[2025-07-10 17:44:03] Sending registration for user: demo_user
+[2025-07-10 17:44:09] Connected to server version 1.0.0
+[2025-07-10 17:44:09] Sending registration for user: myuser2
+[2025-07-10 17:50:46] Connected to server version 1.0.0
+[2025-07-10 17:50:46] Sending registration for user: demo_user
+[2025-07-10 17:50:54] Connected to server version 1.0.0
+[2025-07-10 17:50:54] Sending registration for user: myuser2
+[2025-07-10 17:52:05] Connected to server version 1.0.0
+[2025-07-10 17:52:05] Sending registration for user: myuser2
+[2025-07-10 17:52:19] Connected to server version 1.0.0
+[2025-07-10 17:52:19] Sending registration for user: demo_user
+[2025-07-10 17:54:02] Connected to server version 1.0.0
+[2025-07-10 17:54:02] Sending registration for user: demo_user
+[2025-07-10 17:54:24] Connected to server version 1.0.0
+[2025-07-10 17:54:24] Sending registration for user: demo_user
+[2025-07-10 17:55:07] Connected to server version 1.0.0
+[2025-07-10 17:55:07] Sending registration for user: demo_user
+[2025-07-10 17:56:18] Connected to server version 1.0.0
+[2025-07-10 17:56:18] Sending registration for user: demo_user
+[2025-07-10 17:57:23] Connected to server version 1.0.0
+[2025-07-10 17:57:23] Sending registration for user: demo_user
+[2025-07-10 17:58:23] Connected to server version 1.0.0
+[2025-07-10 17:58:23] Sending registration for user: demo_user
+[2025-07-10 17:58:28] Connected to server version 1.0.0
+[2025-07-10 17:58:28] Sending registration for user: demo_user
+[2025-07-10 17:58:53] Connected to server version 1.0.0
+[2025-07-10 17:58:53] Sending registration for user: demo_user
+[2025-07-10 17:59:13] Connected to server version 1.0.0
+[2025-07-10 17:59:13] Sending registration for user: demo_user
+[2025-07-10 18:00:52] Connected to server version 1.0.0
+[2025-07-10 18:00:52] Sending registration for user: demo_user
+[2025-07-10 18:01:51] Connected to server version 1.0.0
+[2025-07-10 18:01:51] Sending registration for user: demo_user
+[2025-07-10 18:04:11] Connected to server version 1.0.0
+[2025-07-10 18:04:11] Sending registration for user: demo_user
+[2025-07-10 18:05:55] Connected to server version 1.0.0
+[2025-07-10 18:05:55] Sending registration for user: demo_user
+[2025-07-10 18:06:28] Connected to server version 1.0.0
+[2025-07-10 18:06:28] Sending registration for user: demo_user
+[2025-07-10 18:07:48] Connected to server version 1.0.0
+[2025-07-10 18:07:48] Sending registration for user: demo_user
+[2025-07-10 18:09:01] Connected to server version 1.0.0
+[2025-07-10 18:09:01] Sending registration for user: demo_user
+[2025-07-10 18:14:29] Connected to server version 1.0.0
+[2025-07-10 18:14:29] Sending registration for user: demo_user
+[2025-07-10 18:14:51] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164070.255226}
+[2025-07-10 18:15:29] Connected to server version 1.0.0
+[2025-07-10 18:15:29] Sending registration for user: demo_user
+[2025-07-10 18:15:29] Connected to server version 1.0.0
+[2025-07-10 18:15:29] Sending registration for user: demo_user
+[2025-07-10 18:17:47] Connected to server version 1.0.0
+[2025-07-10 18:17:47] Sending registration for user: demo_user
+[2025-07-10 18:17:51] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164268.166399}
+[2025-07-10 18:18:17] Sent private message to test3: message
+[2025-07-10 18:18:17] Received error: {'type': 'error', 'message': 'User test3 not found', 'timestamp': 1752164297.1580007}
+[2025-07-10 18:18:21] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164301.1188111}
+[2025-07-10 18:18:29] Connected to server version 1.0.0
+[2025-07-10 18:18:29] Sending registration for user: demo_user
+[2025-07-10 18:18:51] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164331.1506824}
+[2025-07-10 18:18:51] Sent private message to myuser2: testmess
+[2025-07-10 18:18:51] Received message_delivered: {'type': 'message_delivered', 'recipient': 'myuser2', 'online': False, 'timestamp': 1752164331.9325638}
+[2025-07-10 18:19:21] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164361.1805973}
+[2025-07-10 18:19:25] Connected to server version 1.0.0
+[2025-07-10 18:19:25] Sending registration for user: demo_user
+[2025-07-10 18:19:41] Connected to server version 1.0.0
+[2025-07-10 18:19:41] Sending registration for user: demo_user
+[2025-07-10 18:19:51] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164391.3046684}
+[2025-07-10 18:20:02] Connected to server version 1.0.0
+[2025-07-10 18:20:02] Sending registration for user: demo_user
+[2025-07-10 18:20:21] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164421.3357792}
+[2025-07-10 18:20:51] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164451.3666818}
+[2025-07-10 18:21:33] Connected to server version 1.0.0
+[2025-07-10 18:21:33] Sending registration for user: demo_user
+[2025-07-10 18:21:33] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164493.602019}
+[2025-07-10 18:21:48] Connected to server version 1.0.0
+[2025-07-10 18:21:48] Sending registration for user: myuser2
+[2025-07-10 18:21:48] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752164508.9679995}
+[2025-07-10 18:21:48] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164508.968173}
+[2025-07-10 18:22:04] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164524.559603}
+[2025-07-10 18:22:05] Sent private message to demo_user: testmsg
+[2025-07-10 18:22:05] Received private_message: {'type': 'private_message', 'sender': 'myuser2', 'content': 'testmsg', 'encrypted': False, 'signature': None, 'timestamp': 1752164525.6097853}
+[2025-07-10 18:22:05] Received message_delivered: {'type': 'message_delivered', 'recipient': 'demo_user', 'online': True, 'timestamp': 1752164525.6097853}
+[2025-07-10 18:22:19] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164539.5762665}
+[2025-07-10 18:22:34] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164554.592656}
+[2025-07-10 18:22:49] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164569.6065712}
+[2025-07-10 18:23:04] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164584.6216462}
+[2025-07-10 18:23:19] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164599.6376903}
+[2025-07-10 18:23:34] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164614.6517894}
+[2025-07-10 18:23:49] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164629.6655307}
+[2025-07-10 18:23:51] Requested friends friend list
+[2025-07-10 18:23:51] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 18:24:04] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164644.6805294}
+[2025-07-10 18:24:11] Sent friend request to myuser2
+[2025-07-10 18:24:11] Received friend_request_response: {'type': 'friend_request_response', 'success': True, 'message': 'Friend request sent', 'friend_username': 'myuser2'}
+[2025-07-10 18:24:19] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164659.6956723}
+[2025-07-10 18:24:34] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164674.71193}
+[2025-07-10 18:24:49] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164689.7275565}
+[2025-07-10 18:25:04] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164704.7421124}
+[2025-07-10 18:25:19] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164719.7598403}
+[2025-07-10 18:25:34] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164734.777232}
+[2025-07-10 18:25:49] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164749.794304}
+[2025-07-10 18:26:04] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164764.8105955}
+[2025-07-10 18:26:19] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164779.8235538}
+[2025-07-10 18:26:34] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164794.8406792}
+[2025-07-10 18:26:49] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164809.8585577}
+[2025-07-10 18:27:04] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164824.8765578}
+[2025-07-10 18:27:19] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164839.8916655}
+[2025-07-10 18:27:34] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164854.9076838}
+[2025-07-10 18:27:49] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164869.9236903}
+[2025-07-10 18:27:59] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752164879.8975768}
+[2025-07-10 18:28:02] Connected to server version 1.0.0
+[2025-07-10 18:28:02] Sending registration for user: demo_user
+[2025-07-10 18:28:03] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752164883.2349064}
+[2025-07-10 18:28:08] Connected to server version 1.0.0
+[2025-07-10 18:28:08] Sending registration for user: myuser2
+[2025-07-10 18:28:08] Received PING: {'type': 'PING', 'username': 'myuser2', 'timestamp': 1752164888.7810128}
+[2025-07-10 18:30:00] Connected to server version 1.0.0
+[2025-07-10 18:30:00] Sending registration for user: myuser2
+[2025-07-10 18:30:26] Sent private message to mysuser2: hahaha
+[2025-07-10 18:30:26] Received error: {'type': 'error', 'message': 'User mysuser2 not found', 'timestamp': 1752165026.9717355}
+[2025-07-10 18:30:38] Sent private message to myuser2: hahaha
+[2025-07-10 18:30:38] Received private_message: {'type': 'private_message', 'sender': 'myuser2', 'content': 'hahaha', 'encrypted': False, 'signature': None, 'timestamp': 1752165038.8819296}
+[2025-07-10 18:30:38] Received message_delivered: {'type': 'message_delivered', 'recipient': 'myuser2', 'online': True, 'timestamp': 1752165038.8819296}
+[2025-07-10 18:47:51] Connected to server version 1.0.0
+[2025-07-10 18:47:51] Sending registration for user: myuser2
+[2025-07-10 18:48:34] Connected to server version 1.0.0
+[2025-07-10 18:48:34] Sending registration for user: myuser2
+[2025-07-10 18:49:03] Received unread_messages: {'type': 'unread_messages', 'messages': [{'id': 23, 'sender': 'demo_user', 'content': 'testmess', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752164331.867756}, {'id': 25, 'sender': 'myuser2', 'content': 'hahaha', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752165038.8151042}], 'count': 2, 'timestamp': 1752166143.6622484}
+[2025-07-10 18:51:49] Connected to server version 1.0.0
+[2025-07-10 18:51:49] Sending registration for user: myuser2
+[2025-07-10 18:51:56] Received unread_messages: {'type': 'unread_messages', 'messages': [{'id': 23, 'sender': 'demo_user', 'content': 'testmess', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752164331.867756}, {'id': 25, 'sender': 'myuser2', 'content': 'hahaha', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752165038.8151042}], 'count': 2, 'timestamp': 1752166316.9399326}
+[2025-07-10 19:30:10] Connected to server version 1.0.0
+[2025-07-10 19:30:10] Sending registration for user: demo_user
+[2025-07-10 19:30:10] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168610.9761906}
+[2025-07-10 19:30:40] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168640.9942496}
+[2025-07-10 19:31:11] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168671.024426}
+[2025-07-10 19:31:41] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168701.0535464}
+[2025-07-10 19:32:11] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168731.083586}
+[2025-07-10 19:32:41] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168761.1126065}
+[2025-07-10 19:32:45] Connected to server version 1.0.0
+[2025-07-10 19:32:45] Sending registration for user: demo_user
+[2025-07-10 19:32:45] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168765.7778747}
+[2025-07-10 19:33:16] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168796.1486692}
+[2025-07-10 19:33:46] Received PING: {'type': 'PING', 'username': 'demo_user', 'timestamp': 1752168826.1835587}
+[2025-07-10 19:36:38] Connected to server version 1.0.0
+[2025-07-10 19:36:38] Sending registration for user: demo_user
+[2025-07-10 19:36:42] Received unread_messages: {'type': 'unread_messages', 'messages': [{'id': 21, 'sender': 'myuser2', 'content': 'Hello there friend!!!', 'message_type': 'private', 'encrypted': True, 'signature': None, 'created_at': 1752161426.5054564}, {'id': 22, 'sender': 'myuser2', 'content': 'Hello there friend!!!', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752161626.0938447}, {'id': 24, 'sender': 'myuser2', 'content': 'testmsg', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752164525.5257707}], 'count': 3, 'timestamp': 1752169002.5904133}
+[2025-07-10 19:38:10] Connected to server version 1.0.0
+[2025-07-10 19:38:10] Sending registration for user: demo_user
+[2025-07-10 19:38:13] Received unread_messages: {'type': 'unread_messages', 'messages': [{'id': 21, 'sender': 'myuser2', 'content': 'Hello there friend!!!', 'message_type': 'private', 'encrypted': True, 'signature': None, 'created_at': 1752161426.5054564}, {'id': 22, 'sender': 'myuser2', 'content': 'Hello there friend!!!', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752161626.0938447}, {'id': 24, 'sender': 'myuser2', 'content': 'testmsg', 'message_type': 'private', 'encrypted': False, 'signature': None, 'created_at': 1752164525.5257707}], 'count': 3, 'timestamp': 1752169093.3958156}
+[2025-07-10 20:01:48] Connected to server version 1.0.0
+[2025-07-10 20:01:48] Sending registration for user: demo_user
+[2025-07-10 20:02:06] Sent friend request to myuser2
+[2025-07-10 20:02:11] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'Friend request already pending', 'friend_username': 'myuser2'}
+[2025-07-10 20:02:36] Requested friends friend list
+[2025-07-10 20:02:36] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 20:02:45] Requested friend requests list
+[2025-07-10 20:02:45] Received friend_requests: {'type': 'friend_requests', 'requests': []}
+[2025-07-10 20:03:07] Connected to server version 1.0.0
+[2025-07-10 20:03:07] Sending registration for user: myuser2
+[2025-07-10 20:03:08] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752170588.0807226}
+[2025-07-10 20:03:22] Requested friend requests list
+[2025-07-10 20:03:22] Received friend_requests: {'type': 'friend_requests', 'requests': [{'id': 20, 'username': 'demo_user', 'requested_at': 1752164651.289358}]}
+[2025-07-10 20:04:24] Sent friend request to demo_user
+[2025-07-10 20:04:24] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'Friend request already pending', 'friend_username': 'demo_user'}
+[2025-07-10 20:04:42] Sent friend request to myuser2
+[2025-07-10 20:04:42] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'Cannot send friend request to yourself', 'friend_username': 'myuser2'}
+[2025-07-10 20:05:14] Received user_left: {'type': 'user_left', 'username': 'myuser2', 'timestamp': 1752170714.7620761}
+[2025-07-10 20:08:52] Connected to server version 1.0.0
+[2025-07-10 20:08:52] Sending registration for user: demo_user
+[2025-07-10 20:08:58] Requested friend requests list
+[2025-07-10 20:08:58] Received friend_requests: {'type': 'friend_requests', 'requests': []}
+[2025-07-10 20:09:14] Requested friends friend list
+[2025-07-10 20:09:14] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 20:09:25] Connected to server version 1.0.0
+[2025-07-10 20:09:25] Sending registration for user: myuser2
+[2025-07-10 20:09:25] Received user_joined: {'type': 'user_joined', 'username': 'myuser2', 'timestamp': 1752170965.369249}
+[2025-07-10 20:09:31] Requested friends friend list
+[2025-07-10 20:09:31] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 20:09:45] Requested friend requests list
+[2025-07-10 20:09:45] Received friend_requests: {'type': 'friend_requests', 'requests': [{'id': 20, 'username': 'demo_user', 'requested_at': 1752164651.289358}]}
+[2025-07-10 20:10:02] Accepted friend request from demo_user
+[2025-07-10 20:10:02] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': True, 'message': 'Friend request accepted', 'friend_username': 'demo_user'}
+[2025-07-10 20:16:38] Connected to server version 1.0.0
+[2025-07-10 20:16:38] Sending registration for user: user1
+[2025-07-10 20:16:54] Connected to server version 1.0.0
+[2025-07-10 20:16:54] Sending registration for user: user1
+[2025-07-10 20:17:26] Sent friend request to user2
+[2025-07-10 20:17:26] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'User not found', 'friend_username': 'user2'}
+[2025-07-10 20:17:40] Connected to server version 1.0.0
+[2025-07-10 20:17:40] Sending registration for user: user2
+[2025-07-10 20:17:41] Received user_joined: {'type': 'user_joined', 'username': 'user2', 'timestamp': 1752171461.1675282}
+[2025-07-10 20:17:42] Received user_left: {'type': 'user_left', 'username': 'user2', 'timestamp': 1752171462.0692973}
+[2025-07-10 20:18:12] Connected to server version 1.0.0
+[2025-07-10 20:18:12] Sending registration for user: user1
+[2025-07-10 20:18:19] Sent friend request to user2
+[2025-07-10 20:18:20] Received friend_request_response: {'type': 'friend_request_response', 'success': True, 'message': 'Friend request sent', 'friend_username': 'user2'}
+[2025-07-10 20:19:14] Connected to server version 1.0.0
+[2025-07-10 20:19:14] Sending registration for user: user2
+[2025-07-10 20:19:14] Received user_joined: {'type': 'user_joined', 'username': 'user2', 'timestamp': 1752171554.586282}
+[2025-07-10 20:19:17] Requested friends friend list
+[2025-07-10 20:19:17] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 20:19:26] Accepted friend request from user2
+[2025-07-10 20:19:26] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'No pending friend request found', 'friend_username': 'user2'}
+[2025-07-10 20:19:39] Requested friends friend list
+[2025-07-10 20:19:39] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 20:19:49] Accepted friend request from user1
+[2025-07-10 20:19:49] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': True, 'message': 'Friend request accepted', 'friend_username': 'user1'}
+[2025-07-10 20:25:53] Received user_left: {'type': 'user_left', 'username': 'user1', 'timestamp': 1752171953.8966494}
+[2025-07-10 21:20:38] Connected to server version 1.0.0
+[2025-07-10 21:20:38] Sending registration for user: user1
+[2025-07-10 21:20:52] Sent private message to user3: hello-user3-from-user1!
+[2025-07-10 21:21:25] Sent private message to user3: hello
+[2025-07-10 21:21:53] Sent private message to user2: hello
+[2025-07-10 21:22:33] Connected to server version 1.0.0
+[2025-07-10 21:22:33] Sending registration for user: user1
+[2025-07-10 21:22:37] Sent private message to user2: hello
+[2025-07-10 21:23:15] Sent private message to user2: hello
+[2025-07-10 21:23:23] Sent private message to user2: hello
+[2025-07-10 21:25:49] Connected to server version 1.0.0
+[2025-07-10 21:25:49] Sending registration for user: user1
+[2025-07-10 21:25:55] Received error: {'type': 'error', 'message': 'Username already exists', 'timestamp': 1752175555.8390071}
+[2025-07-10 21:26:02] Sent private message to user2: hello
+[2025-07-10 21:26:07] Received error: {'type': 'error', 'message': 'User not authenticated', 'timestamp': 1752175567.5144083}
+[2025-07-10 21:27:31] Connected to server version 1.0.0
+[2025-07-10 21:27:31] Sending registration for user: user1
+[2025-07-10 21:31:07] Connected to server version 1.0.0
+[2025-07-10 21:31:07] Sending registration for user: user1
+[2025-07-10 21:32:05] Sent private message to user1: hsda
+[2025-07-10 21:33:59] Connected to server version 1.0.0
+[2025-07-10 21:33:59] Sending registration for user: user1
+[2025-07-10 21:37:02] Connected to server version 1.0.0
+[2025-07-10 21:37:02] Sending registration for user: user1
+[2025-07-10 21:37:10] Received unread_messages: {'type': 'unread_messages', 'messages': [], 'count': 0, 'timestamp': 1752176230.7094984}
+[2025-07-10 21:40:00] Connected to server version 1.0.0
+[2025-07-10 21:40:00] Sending registration for user: user2
+[2025-07-10 21:40:00] Received user_joined: {'type': 'user_joined', 'username': 'user2', 'timestamp': 1752176400.836591}
+[2025-07-10 21:40:08] Sent private message to user1: hello
+[2025-07-10 21:40:26] Received private_message: {'type': 'private_message', 'sender': 'user2', 'content': 'hello', 'encrypted': False, 'signature': None, 'timestamp': 1752176426.9864347}
+[2025-07-10 21:40:26] Received message_delivered: {'type': 'message_delivered', 'recipient': 'user1', 'online': True, 'timestamp': 1752176426.9864347}
+[2025-07-10 21:42:39] Sent private message to user6: hrllo
+[2025-07-10 21:42:39] Received error: {'type': 'error', 'message': 'User user6 not found', 'timestamp': 1752176559.275449}
+[2025-07-10 21:42:49] Sent private message to user3: hello
+[2025-07-10 21:42:49] Received error: {'type': 'error', 'message': 'User user3 not found', 'timestamp': 1752176569.1827538}
+[2025-07-10 21:43:01] Sent private message to demo_user: fds
+[2025-07-10 21:43:01] Received error: {'type': 'error', 'message': 'You can only send messages to users who have you in their friend list (accepted)', 'timestamp': 1752176581.1821866}
+[2025-07-10 21:54:45] Received user_left: {'type': 'user_left', 'username': 'user2', 'timestamp': 1752177285.3204844}
+[2025-07-10 21:54:49] Connected to server version 1.0.0
+[2025-07-10 21:54:49] Sending registration for user: user2
+[2025-07-10 21:54:59] Sent private message to user2: thishsiis
+[2025-07-10 21:54:59] Received error: {'type': 'error', 'message': 'You can only send messages to users who have you in their friend list (accepted)', 'timestamp': 1752177299.4463031}
+[2025-07-10 21:56:01] Sent private message to user2: hahahcool
+[2025-07-10 21:56:27] Connected to server version 1.0.0
+[2025-07-10 21:56:27] Sending registration for user: user2
+[2025-07-10 21:56:35] Sent private message to user1: testmessage!
+[2025-07-10 21:56:35] Received message_delivered: {'type': 'message_delivered', 'recipient': 'user1', 'online': False, 'timestamp': 1752177395.13966}
+[2025-07-10 21:56:44] Sent private message to user1: tessmessage2222!
+[2025-07-10 21:56:44] Received message_delivered: {'type': 'message_delivered', 'recipient': 'user1', 'online': False, 'timestamp': 1752177404.4147856}
+[2025-07-10 21:59:12] Connected to server version 1.0.0
+[2025-07-10 21:59:12] Sending registration for user: user2
+[2025-07-10 21:59:21] Sent private message to test1: usdasf
+[2025-07-10 21:59:21] Received error: {'type': 'error', 'message': 'User test1 not found', 'timestamp': 1752177561.1881468}
+[2025-07-10 22:02:37] Connected to server version 1.0.0
+[2025-07-10 22:02:37] Sending registration for user: user2
+[2025-07-10 22:02:47] Sent private message to user1: test
+[2025-07-10 22:02:47] Received message_delivered: {'type': 'message_delivered', 'recipient': 'user1', 'online': False, 'timestamp': 1752177767.652399}
+[2025-07-10 22:02:58] Sent private message to user1: sa
+[2025-07-10 22:02:58] Received message_delivered: {'type': 'message_delivered', 'recipient': 'user1', 'online': False, 'timestamp': 1752177778.8690703}
+[2025-07-10 22:04:02] Connected to server version 1.0.0
+[2025-07-10 22:04:02] Sending registration for user: user2
+[2025-07-10 22:04:13] Requested friends friend list
+[2025-07-10 22:04:13] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225}]}
+[2025-07-10 22:04:16] Requested friend requests list
+[2025-07-10 22:04:16] Received friend_requests: {'type': 'friend_requests', 'requests': []}
+[2025-07-10 22:07:27] Requested friends friend list
+[2025-07-10 22:07:27] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225}]}
+[2025-07-10 22:14:33] Connected to server version 1.0.0
+[2025-07-10 22:14:33] Sending registration for user: user2
+[2025-07-10 22:14:33] Requested friends friend list
+[2025-07-10 22:15:52] Connected to server version 1.0.0
+[2025-07-10 22:15:52] Sending registration for user: user2
+[2025-07-10 22:15:52] Requested friends friend list
+[2025-07-10 22:15:54] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225}]}
+[2025-07-10 22:17:02] Requested friends friend list
+[2025-07-10 22:17:05] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225}]}
+[2025-07-10 22:18:26] Requested friends friend list
+[2025-07-10 22:18:28] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225}]}
+[2025-07-10 22:18:32] Requested friends friend list
+[2025-07-10 22:18:33] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225}]}
+[2025-07-10 22:22:41] Connected to server version 1.0.0
+[2025-07-10 22:22:41] Sending registration for user: user2
+[2025-07-10 22:22:41] Requested friends friend list
+[2025-07-10 22:24:48] Connected to server version 1.0.0
+[2025-07-10 22:24:48] Sending registration for user: user2
+[2025-07-10 22:24:48] Requested friends friend list
+[2025-07-10 22:27:20] Connected to server version 1.0.0
+[2025-07-10 22:27:20] Sending registration for user: user2
+[2025-07-10 22:27:20] Requested friends friend list
+[2025-07-10 22:37:00] Connected to server version 1.0.0
+[2025-07-10 22:37:00] Sending registration for user: user2
+[2025-07-10 22:37:00] Requested friends friend list
+[2025-07-10 22:39:00] Connected to server version 1.0.0
+[2025-07-10 22:39:00] Sending registration for user: user2
+[2025-07-10 22:39:01] Requested friends friend list
+[2025-07-10 22:40:48] Connected to server version 1.0.0
+[2025-07-10 22:40:48] Sending registration for user: user2
+[2025-07-10 22:40:49] Requested friends friend list
+[2025-07-10 22:41:21] Requested friends friend list
+[2025-07-10 22:41:23] Requested friends friend list
+[2025-07-10 22:41:29] Requested friends friend list
+[2025-07-10 22:41:37] Requested friend requests list
+[2025-07-10 22:42:21] Connected to server version 1.0.0
+[2025-07-10 22:42:21] Sending registration for user: user2
+[2025-07-10 22:42:22] Requested friends friend list
+[2025-07-10 22:45:18] Connected to server version 1.0.0
+[2025-07-10 22:45:18] Sending registration for user: user2
+[2025-07-10 22:45:19] Requested friends friend list
+[2025-07-10 22:47:54] Connected to server version 1.0.0
+[2025-07-10 22:47:54] Sending registration for user: user2
+[2025-07-10 22:47:55] Requested friends friend list
+[2025-07-10 22:49:10] Connected to server version 1.0.0
+[2025-07-10 22:49:10] Sending registration for user: user2
+[2025-07-10 22:49:10] Requested friends friend list
+[2025-07-10 22:50:36] Connected to server version 1.0.0
+[2025-07-10 22:50:36] Sending registration for user: user2
+[2025-07-10 22:50:36] Requested friends friend list
+[2025-07-10 22:52:35] Connected to server version 1.0.0
+[2025-07-10 22:52:35] Sending registration for user: user2
+[2025-07-10 22:52:36] Requested friends friend list
+[2025-07-10 22:55:47] Connected to server version 1.0.0
+[2025-07-10 22:55:47] Sending registration for user: user2
+[2025-07-10 22:55:47] Requested friends friend list
+[2025-07-10 22:57:49] Connected to server version 1.0.0
+[2025-07-10 22:57:49] Sending registration for user: user2
+[2025-07-10 22:57:49] Requested friends friend list
+[2025-07-10 22:58:23] Connected to server version 1.0.0
+[2025-07-10 22:58:23] Sending registration for user: user2
+[2025-07-10 22:58:23] Requested friends friend list
+[2025-07-10 23:00:30] Connected to server version 1.0.0
+[2025-07-10 23:00:30] Sending registration for user: user2
+[2025-07-10 23:00:31] Requested friends friend list
+[2025-07-10 23:00:44] Connected to server version 1.0.0
+[2025-07-10 23:00:44] Sending registration for user: user2
+[2025-07-10 23:00:44] Requested friends friend list
+[2025-07-10 23:04:07] Connected to server version 1.0.0
+[2025-07-10 23:04:07] Sending registration for user: user2
+[2025-07-10 23:04:07] Requested friends friend list
+[2025-07-10 23:04:21] Connected to server version 1.0.0
+[2025-07-10 23:04:21] Sending registration for user: user2
+[2025-07-10 23:04:21] Requested friends friend list
+[2025-07-10 23:05:37] Connected to server version 1.0.0
+[2025-07-10 23:05:37] Sending registration for user: user2
+[2025-07-10 23:05:38] Requested friends friend list
+[2025-07-10 23:07:22] Connected to server version 1.0.0
+[2025-07-10 23:07:22] Sending registration for user: user2
+[2025-07-10 23:07:23] Requested friends friend list
+[2025-07-10 23:10:40] Connected to server version 1.0.0
+[2025-07-10 23:10:40] Sending registration for user: user2
+[2025-07-10 23:10:40] Requested friends friend list
+[2025-07-10 23:10:47] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225, 'public_key': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyLD7MFyl1EI+rlha14Gv\nhunppjbalGYX/99zbK5IkpGmekss1UFTVmFomvnAna3UJzdTNmhhCdmWKiSsw4SN\nzIv/IIFDhh6ew0jlotgQN8V9WcYWVRd4bxk4fZa0ufVw07jxWoPts1lPnSvoLOXK\nrLn01JaRLoxL80tMypfZlb1m6EL5kc9HwTqT6AybDh5A36Q8J71TJ+z+7ZNG2DLZ\nV5Hykee8O3MZamY9zUUfZk7sWFC6f33JIiuLpfqRaoyIBiTXPzIOY4jgaGwL+Nt4\nGnZJ6QLjxqGKb65OGF43EiUmAIJd+igUL37B4TiSoUfTAdoF7cur4BB/RyD4QFdt\n/QIDAQAB\n-----END PUBLIC KEY-----\n'}]}
+[2025-07-10 23:13:58] Connected to server version 1.0.0
+[2025-07-10 23:13:58] Sending registration for user: newuser
+[2025-07-10 23:13:58] Requested friends friend list
+[2025-07-10 23:13:58] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:14:35] Connected to server version 1.0.0
+[2025-07-10 23:14:35] Sending registration for user: newuser
+[2025-07-10 23:14:35] Requested friends friend list
+[2025-07-10 23:14:35] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:14:44] Connected to server version 1.0.0
+[2025-07-10 23:14:44] Sending registration for user: user2
+[2025-07-10 23:14:44] Received user_joined: {'type': 'user_joined', 'username': 'user2', 'timestamp': 1752182084.9873683}
+[2025-07-10 23:14:45] Requested friends friend list
+[2025-07-10 23:14:45] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225, 'public_key': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyLD7MFyl1EI+rlha14Gv\nhunppjbalGYX/99zbK5IkpGmekss1UFTVmFomvnAna3UJzdTNmhhCdmWKiSsw4SN\nzIv/IIFDhh6ew0jlotgQN8V9WcYWVRd4bxk4fZa0ufVw07jxWoPts1lPnSvoLOXK\nrLn01JaRLoxL80tMypfZlb1m6EL5kc9HwTqT6AybDh5A36Q8J71TJ+z+7ZNG2DLZ\nV5Hykee8O3MZamY9zUUfZk7sWFC6f33JIiuLpfqRaoyIBiTXPzIOY4jgaGwL+Nt4\nGnZJ6QLjxqGKb65OGF43EiUmAIJd+igUL37B4TiSoUfTAdoF7cur4BB/RyD4QFdt\n/QIDAQAB\n-----END PUBLIC KEY-----\n'}]}
+[2025-07-10 23:15:33] Connected to server version 1.0.0
+[2025-07-10 23:15:33] Sending registration for user: newuser
+[2025-07-10 23:15:33] Requested friends friend list
+[2025-07-10 23:15:33] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:17:02] Connected to server version 1.0.0
+[2025-07-10 23:17:02] Sending registration for user: user2
+[2025-07-10 23:17:02] Requested friends friend list
+[2025-07-10 23:17:02] Received friends_list: {'type': 'friends_list', 'friends': [{'id': 23, 'username': 'user1', 'last_login': 1752176222.8285315, 'friends_since': 1752171589.5443225, 'public_key': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyLD7MFyl1EI+rlha14Gv\nhunppjbalGYX/99zbK5IkpGmekss1UFTVmFomvnAna3UJzdTNmhhCdmWKiSsw4SN\nzIv/IIFDhh6ew0jlotgQN8V9WcYWVRd4bxk4fZa0ufVw07jxWoPts1lPnSvoLOXK\nrLn01JaRLoxL80tMypfZlb1m6EL5kc9HwTqT6AybDh5A36Q8J71TJ+z+7ZNG2DLZ\nV5Hykee8O3MZamY9zUUfZk7sWFC6f33JIiuLpfqRaoyIBiTXPzIOY4jgaGwL+Nt4\nGnZJ6QLjxqGKb65OGF43EiUmAIJd+igUL37B4TiSoUfTAdoF7cur4BB/RyD4QFdt\n/QIDAQAB\n-----END PUBLIC KEY-----\n'}]}
+[2025-07-10 23:20:21] Connected to server version 1.0.0
+[2025-07-10 23:20:21] Sending registration for user: newuser
+[2025-07-10 23:20:21] Requested friends friend list
+[2025-07-10 23:20:21] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:24:11] Connected to server version 1.0.0
+[2025-07-10 23:24:11] Sending registration for user: newuser2
+[2025-07-10 23:24:12] Requested friends friend list
+[2025-07-10 23:24:12] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:24:31] Sent private message to user1: hasdhasdhash
+[2025-07-10 23:24:31] Received error: {'type': 'error', 'message': 'You can only send messages to users who have you in their friend list (accepted)', 'timestamp': 1752182671.2398322}
+[2025-07-10 23:26:25] Connected to server version 1.0.0
+[2025-07-10 23:26:25] Sending registration for user: newuser2
+[2025-07-10 23:26:25] Requested friends friend list
+[2025-07-10 23:26:25] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:26:28] Received unread_messages: {'type': 'unread_messages', 'messages': [], 'count': 0, 'timestamp': 1752182788.6068356}
+[2025-07-10 23:26:36] Sent private message to user2: tsahsdh
+[2025-07-10 23:26:36] Received error: {'type': 'error', 'message': 'You can only send messages to users who have you in their friend list (accepted)', 'timestamp': 1752182796.5298562}
+[2025-07-10 23:26:42] Requested friends friend list
+[2025-07-10 23:26:42] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:28:37] Connected to server version 1.0.0
+[2025-07-10 23:28:37] Sending registration for user: newuser2
+[2025-07-10 23:28:37] Requested friends friend list
+[2025-07-10 23:28:37] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:28:45] Sent friend request to user2
+[2025-07-10 23:28:45] Received friend_request_response: {'type': 'friend_request_response', 'success': True, 'message': 'Friend request sent', 'friend_username': 'user2'}
+[2025-07-10 23:28:59] Connected to server version 1.0.0
+[2025-07-10 23:28:59] Sending registration for user: newuser
+[2025-07-10 23:29:00] Received user_joined: {'type': 'user_joined', 'username': 'newuser', 'timestamp': 1752182940.2393932}
+[2025-07-10 23:29:00] Requested friends friend list
+[2025-07-10 23:29:00] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:29:10] Sent friend request to newuser
+[2025-07-10 23:29:10] Received friend_request_response: {'type': 'friend_request_response', 'success': True, 'message': 'Friend request sent', 'friend_username': 'newuser'}
+[2025-07-10 23:29:17] Sent friend request to newuser1
+[2025-07-10 23:29:17] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'User not found', 'friend_username': 'newuser1'}
+[2025-07-10 23:29:20] Sent friend request to newuser2
+[2025-07-10 23:29:20] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'Friend request already pending', 'friend_username': 'newuser2'}
+[2025-07-10 23:29:31] Sent friend request to newuser
+[2025-07-10 23:29:31] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'Friend request already pending', 'friend_username': 'newuser'}
+[2025-07-10 23:29:33] Sent friend request to newuser2
+[2025-07-10 23:29:33] Received friend_request_response: {'type': 'friend_request_response', 'success': False, 'message': 'Cannot send friend request to yourself', 'friend_username': 'newuser2'}
+[2025-07-10 23:29:40] Requested friends friend list
+[2025-07-10 23:29:40] Received friends_list: {'type': 'friends_list', 'friends': []}
+[2025-07-10 23:29:52] Accepted friend request from newuser
+[2025-07-10 23:29:52] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'No pending friend request found', 'friend_username': 'newuser'}
+[2025-07-10 23:29:53] Accepted friend request from newuser1
+[2025-07-10 23:29:53] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'User not found', 'friend_username': 'newuser1'}
+[2025-07-10 23:30:01] Accepted friend request from newuser
+[2025-07-10 23:30:01] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'No pending friend request found', 'friend_username': 'newuser'}
+[2025-07-10 23:30:01] Accepted friend request from newuser
+[2025-07-10 23:30:01] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'No pending friend request found', 'friend_username': 'newuser'}
+[2025-07-10 23:30:02] Accepted friend request from newuser2
+[2025-07-10 23:30:02] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': True, 'message': 'Friend request accepted', 'friend_username': 'newuser2'}
+[2025-07-10 23:30:06] Accepted friend request from newuser2
+[2025-07-10 23:30:06] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'No pending friend request found', 'friend_username': 'newuser2'}
+[2025-07-10 23:30:09] Accepted friend request from newuser
+[2025-07-10 23:30:09] Received friend_request_accept_response: {'type': 'friend_request_accept_response', 'success': False, 'message': 'No pending friend request found', 'friend_username': 'newuser'}
+[2025-07-10 23:30:24] Sent private message to newuser2: hashahhahahaha
+[2025-07-10 23:30:24] Received message_delivered: {'type': 'message_delivered', 'recipient': 'newuser2', 'online': True, 'timestamp': 1752183024.71472}
+[2025-07-10 23:30:24] Received private_message: {'type': 'private_message', 'sender': 'newuser', 'content': 'hashahhahahaha', 'encrypted': False, 'signature': None, 'timestamp': 1752183024.71472}
+[2025-07-10 23:51:29] Sending registration for user: newuser
+[2025-07-10 23:53:07] Sending registration for user: newuser
+[2025-07-10 23:54:15] Sending registration for user: newuser
+[2025-07-10 23:57:00] Sending registration for user: newuser
+[2025-07-10 23:58:00] Sending registration for user: newuser
+[2025-07-11 06:22:43] Sending registration for user: man
+[2025-07-11 06:22:46] Sending registration for user: dude
+[2025-07-11 06:23:21] Sending registration for user: dude
+[2025-07-11 06:25:23] Sending registration for user: man
+[2025-07-11 06:26:42] Sending registration for user: man
+[2025-07-11 06:29:00] Sending registration for user: dude
+[2025-07-11 06:31:50] Sending registration for user: dude
+[2025-07-11 06:34:31] Sending registration for user: man
+[2025-07-11 06:36:36] Sending registration for user: man
+[2025-07-11 06:37:24] Sending registration for user: man
+[2025-07-11 06:40:24] Sending registration for user: man
+[2025-07-11 06:48:47] Sending registration for user: man
+[2025-07-11 06:51:20] Sending registration for user: dude
+[2025-07-11 06:53:18] Sending registration for user: dude
+[2025-07-11 06:56:35] Sending registration for user: dude
+[2025-07-11 06:57:32] Sending registration for user: man
+[2025-07-11 07:05:57] Sending registration for user: man
+[2025-07-11 07:16:03] Sending registration for user: man
+[2025-07-11 07:17:10] Sending registration for user: man
+[2025-07-11 07:17:18] Sending registration for user: man
+[2025-07-11 07:17:36] Sending registration for user: man
+[2025-07-11 07:18:06] Sending registration for user: man
+[2025-07-11 07:18:38] Sending registration for user: man
+[2025-07-11 07:18:56] Sending registration for user: man
+[2025-07-11 07:20:00] Sending registration for user: dude
+[2025-07-11 07:22:38] Sending registration for user: man
+[2025-07-11 07:26:10] Sending registration for user: man
+[2025-07-11 07:28:57] Sending registration for user: man
+[2025-07-11 07:30:10] Sending registration for user: man
+[2025-07-11 07:31:43] Sending registration for user: man
+[2025-07-11 07:32:25] Sending registration for user: man
+[2025-07-11 07:33:45] Sending registration for user: man
+[2025-07-11 07:34:38] Sending registration for user: man
+[2025-07-11 07:41:47] Sending registration for user: man
+[2025-07-11 07:42:28] Sending registration for user: man
+[2025-07-11 07:43:21] Sending registration for user: man
+[2025-07-11 07:44:28] Sending registration for user: man
+[2025-07-11 07:46:15] Sending registration for user: man
+[2025-07-11 07:51:12] Sending registration for user: man
+[2025-07-11 07:55:31] Sending registration for user: man
+[2025-07-19 05:11:26] Sending registration for user: user2
+[2025-07-19 06:05:09] Sending registration for user: man
+[2025-07-19 06:16:06] Sending registration for user: man
+[2025-07-19 07:34:10] Sending registration for user: pebnop
+[2025-07-19 10:04:38] Sending registration for user: user1
+[2025-07-19 10:20:37] Sending registration for user: pebnop
+[2025-07-19 10:42:59] Sending registration for user: pebnop
+[2025-07-19 10:44:47] Sending registration for user: pebnop
+[2025-07-19 10:45:33] Sending registration for user: dude
+[2025-07-19 10:46:21] Sending registration for user: pebnop
+[2025-07-19 10:50:50] Sending registration for user: pebnop
+[2025-07-19 10:54:41] Sending registration for user: pebnop
+[2025-07-19 12:52:07] Sending registration for user: pebnop
+[2025-07-19 14:07:03] Sending registration for user: pebnop
+[2025-07-19 14:07:38] Sending registration for user: pebnop
+[2025-07-19 14:08:22] Sending registration for user: pebnop
+[2025-07-19 14:49:15] Sending registration for user: pebnop1
+[2025-07-19 14:49:53] Sending registration for user: pebnop1
+[2025-07-19 14:52:49] Sending registration for user: pebnop1
+[2025-07-19 14:56:43] Sending registration for user: pebnop1
+[2025-07-19 15:01:16] Sending registration for user: user2
+[2025-07-19 15:03:12] Sending registration for user: pebnop
+[2025-07-19 15:06:20] Sending registration for user: pebnop
+[2025-07-19 15:06:57] Sending registration for user: user2
+[2025-07-19 15:08:20] Sending registration for user: user2
+[2025-07-19 15:08:53] Sending registration for user: user2
+[2025-07-19 15:09:31] Sending registration for user: user2
+[2025-07-19 15:10:15] Sending registration for user: user2
+[2025-07-19 15:10:49] Sending registration for user: pebnop
+[2025-07-19 15:11:42] Sending registration for user: pebnop
+[2025-07-19 15:12:03] Sending registration for user: user2
+[2025-07-19 17:13:35] Sending registration for user: pebnop
+[2025-07-19 17:18:22] Sending registration for user: pebnop
+[2025-07-19 17:19:58] Sending registration for user: pebnop
+[2025-07-19 17:21:58] Sending registration for user: pebnop
+[2025-07-19 17:23:41] Sending registration for user: pebnop
+[2025-07-19 17:25:22] Sending registration for user: pebnop
+[2025-07-19 17:26:57] Sending registration for user: pebnop
+[2025-07-19 17:28:13] Sending registration for user: pebnop
+[2025-07-19 17:40:30] Sending registration for user: pebnop
+[2025-07-19 17:44:29] Sending registration for user: pebnop
+[2025-07-19 17:47:41] Sending registration for user: pebnop
+[2025-07-19 17:53:55] Sending registration for user: pebnop
+[2025-07-19 17:58:28] Sending registration for user: pebnop
+[2025-07-19 18:02:04] Sending registration for user: pebnop
+[2025-07-19 18:04:49] Sending registration for user: pebnop
+[2025-07-19 18:10:46] Sending registration for user: pebnop
+[2025-07-19 18:22:25] Sending registration for user: pebnop
+[2025-07-19 18:36:05] Sending registration for user: user1
+[2025-07-19 18:36:46] Sending registration for user: pebnop
+[2025-07-20 12:17:54] Sending registration for user: --help
+[2025-07-20 12:18:50] Sending registration for user: pebnop3
+[2025-07-20 12:19:19] Sending registration for user: pebnop3
+[2025-07-20 13:28:28] Sending registration for user: pebnop3
+[2025-07-20 13:29:43] Sending registration for user: pebnop3
+[2025-07-20 14:21:45] Sending registration for user: pebnop3
+[2025-07-20 14:22:39] Sending registration for user: testuser
+[2025-07-20 17:55:24] Sending registration for user: --username
+[2025-08-11 03:41:40] Sending registration for user: testuser

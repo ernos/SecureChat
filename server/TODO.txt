@@ -1,0 +1,14 @@
+SERVER TODO: 
+
+Every time an update occurs to someone in table users, everyone that has that user as a friend
+needs to get an update to their local friendlist. Such as, time last online, public key, etc etc
+
+As soon as a message is sent to a user:
+update sender last_online to now()
+    Check if reciever has sender in friendlist:
+        check if user is online in table_users:
+            if online -> send message to reciever
+            update reciever.last_online to now()
+        update database with the new message
+    else:
+        Send "error, not your friend" to sender

@@ -1,0 +1,66 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and run client pebnop:password123",
+            "type": "shell",
+            "command": "/home/peb/PROJECTS/Python/SafeMessengerWorkspace/.venv/bin/python",
+            "args": ["client.py", "--username", "pebnop", "--password", "password123"],
+            "options": {
+                "cwd": "${workspaceFolder}/client"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "isBackground": true
+        },
+        {
+            "label": "Check Client Virtual Environment",
+            "type": "shell",
+            "command": "/home/peb/PROJECTS/Python/SafeMessengerWorkspace/.venv/bin/python",
+            "args": ["check_env.py"],
+            "options": {
+                "cwd": "${workspaceFolder}/client"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Install Client Dependencies",
+            "type": "shell",
+            "command": "/home/peb/PROJECTS/Python/SafeMessengerWorkspace/.venv/bin/python",
+            "args": ["-m", "pip", "install", "-r", "requirements.txt"],
+            "options": {
+                "cwd": "${workspaceFolder}/client"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

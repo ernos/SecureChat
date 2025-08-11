@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# SQLite DB
+client/data/*.db
+server/data/*.db
+
+# Logs
+/logs/
+*.log
+
+# VSCode
+.vscode/
+
+# SSL keys/certs
+server/data/*.crt
+client/data/*.key
+
+# Env
+.env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.swp
+*.bak

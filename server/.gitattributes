@@ -1,0 +1,9 @@
+# Ensure consistent line endings
+* text=auto
+
+# Treat certs/keys as binary
+*.crt binary
+*.key binary
+
+# SQLite DB as binary
+*.db binary

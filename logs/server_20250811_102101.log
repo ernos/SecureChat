@@ -1,0 +1,27 @@
+2025-08-11 10:21:01,440 - __main__ - [INFO] [CONFIG] Loaded server configuration:
+2025-08-11 10:21:01,440 - __main__ - [INFO] [CONFIG] Host: 0.0.0.0
+2025-08-11 10:21:01,440 - __main__ - [INFO] [CONFIG] Port: 8100
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] SSL: Enabled
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] Console: Enabled
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] Debug Terminal: Disabled
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] Ping Interval: 30s
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] Ping Timeout: 40s
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] Certificate: server/keys/certificate.crt
+2025-08-11 10:21:01,441 - __main__ - [INFO] [CONFIG] Private Key: server/keys/keyfile2.key
+2025-08-11 10:21:01,540 - __main__ - [INFO] Server RSA keys generated successfully
+2025-08-11 10:21:01,540 - __main__ - [INFO] [SSL] Using existing certificate: server/keys/certificate.crt
+2025-08-11 10:21:01,540 - __main__ - [INFO] 🖥️  Starting server with interactive console...
+2025-08-11 10:21:01,540 - __main__ - [INFO] 📝 Type 'help' in the console for available commands
+2025-08-11 10:21:01,540 - __main__ - [INFO] Starting secure chat server on 0.0.0.0:8100
+2025-08-11 10:21:01,540 - __main__ - [INFO] [DEBUG] Starting secure chat server on 0.0.0.0:8100
+2025-08-11 10:21:01,542 - __main__ - [INFO] 🖥️  Server Console Started
+2025-08-11 10:21:01,542 - __main__ - [INFO] Type 'help' for available commands
+2025-08-11 10:21:01,543 - __main__ - [INFO] --------------------------------------------------
+2025-08-11 10:21:01,606 - __main__ - [INFO] [DEBUG] Database initialized
+2025-08-11 10:21:01,608 - __main__ - [INFO] [SSL] SSL context created using server/keys/certificate.crt
+2025-08-11 10:21:01,608 - __main__ - [INFO] [DEBUG] About to start websockets.serve
+2025-08-11 10:21:01,608 - __main__ - [INFO] [SSL] Starting secure WebSocket server (wss://) on 0.0.0.0:8100
+2025-08-11 10:21:01,609 - __main__ - [ERROR] Failed to start websocket server: [Errno 98] error while attempting to bind on address ('0.0.0.0', 8100): address already in use
+2025-08-11 10:21:09,110 - __main__ - [INFO] 👋 Server console stopped
+2025-08-11 10:21:09,110 - __main__ - [INFO] Server shutdown complete
+2025-08-11 10:21:09,110 - __main__ - [INFO] Server shutdown complete

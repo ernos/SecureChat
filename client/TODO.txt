@@ -1,0 +1,6 @@
+TODO:
+
+Add functionality for:
+friends getlist
+
+so that we can add it to our local list.

@@ -1,0 +1,44 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "Debug Client 'pebnop:password'",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/client.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:/.venv/bin/python3"
+            },
+            "args": [
+                "--username",
+                "pebnop", 
+                "--password",
+                "password" ],
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true
+        },        
+        {
+            "name": "Debug Client pebnop3",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/client.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}:/.venv/bin/python3"
+            },
+            "args": [
+                "--username",
+                "pebnop3", 
+                "--password",
+                "password" ],
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug-server",
+            "type": "pydevd",
+            "request": "launch",
+            "program": "server/server.py",
+            "console": "integratedTerminal",
+            "preLaunchTask": "killall",
+            "pythonExecutable": "/usr/bin/python3",
+            "justMyCode": true,
+            "stopOnEntry": true,
+            "showReturnValue": true,
+            "args": [],
+        },       
+        {
+            "name": "run-server-and-debug-client-pebnop",
+            "type": "pydevd",
+            "request": "launch",
+            "program": "client/client.py",
+            "console": "integratedTerminal",
+            "pythonExecutable": "/usr/bin/python3",
+            "preLaunchTask": "startserver",
+            
+            "justMyCode": true,
+            "stopOnEntry": true,
+            "showReturnValue": true,
+            "args": [],
+        },
+        {
+            "name": "debug-server-and-run-pebnop",
+            "type": "pydevd",
+            "request": "launch",
+            "program": "${workspaceFolder}/server/server.py",
+            "console": "externalTerminal",
+            "cwd": "${workspaceFolder}/server",
+            "pythonExecutable": "/usr/bin/python3",
+            "postDebugTask": "run-client-pebnop",
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true,
+            "args": [
+                "--console"
+            ]
+        },
+        {
+            "name": "🐛 Debug Server + Debug Terminal",
+            "type": "pydevd",
+            "request": "launch",
+            "program": "${workspaceFolder}/server/server.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/server",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/.venv/bin/python3",
+                "DEBUG_TERMINAL": "true"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true,
+            "args": [
+                "--console"
+            ]
+        },
+        {
+            "name": "👤 Debug Client (pebnop)",
+            "type": "pydevd",
+            "request": "launch",
+            "program": "${workspaceFolder}/client/client.py",
+            "args": [
+                "pebnop",
+                "password"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/client",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/.venv/bin/python3"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true
+        },
+        {
+            "name": "👤 Debug Client (pebnop2)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/client/client.py",
+            "args": [
+                "pebnop2",
+                "password"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/client",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/client:${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true
+        },
+        {
+            "name": "👤 Debug Client (pebnop3)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/client/client.py",
+            "args": [
+                "pebnop3",
+                "password"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/client",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/client:${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true
+        },
+        {
+            "name": "👥 Debug Multiple Clients",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/client/client.py",
+            "args": [
+                "testuser",
+                "password"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/client",
+            "python": "${workspaceFolder}/.venv/bin/python3",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/client:${workspaceFolder}"
+            },
+            "justMyCode": false,
+            "stopOnEntry": false,
+            "showReturnValue": true
+        }
+    ],
+    "compounds": [
+        {
+            "name": "🚀 Debug Server + Client",
+            "configurations": [
+                "👤 Debug Client (pebnop)"
+            ],
+            "stopAll": true,
+            "preLaunchTask": "Check Server Virtual Environment"
+        },
+        {
+            "name": "🚀 Debug Server Console + Client",
+            "configurations": [
+                "👤 Debug Client (pebnop)"
+            ],
+            "stopAll": true,
+            "preLaunchTask": "Check Server Virtual Environment"
+        },
+        {
+            "name": "🚀 Debug Server + Multiple Clients",
+            "configurations": [
+                "👤 Debug Client (pebnop)",
+                "👤 Debug Client (pebnop2)"
+            ],
+            "stopAll": true,
+            "preLaunchTask": "Check Server Virtual Environment"
+        },
+        {
+            "name": "🐛 Full Debug Setup (Server + Debug Terminal + Client)",
+            "configurations": [
+                "🐛 Debug Server + Debug Terminal",
+                "👤 Debug Client (pebnop)"
+            ],
+            "stopAll": true,
+            "preLaunchTask": "Check Server Virtual Environment"
+        }
+    ]
+}

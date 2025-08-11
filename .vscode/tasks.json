@@ -1,0 +1,117 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "run-client-pebnop",
+            "type": "shell",
+            "command": "terminator -x 'sleep 5 && python3 client.py --username pebnop --password password123'",
+            "options": {
+                "cwd": "client/"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "isBackground": true
+        },
+        {
+            "label": "killall",
+            "type": "shell",
+            "command": "killall",
+            "args": [
+                "python3"
+            ],
+        },
+        {
+            "label": "startserver",
+            "type": "shell",
+            "command": "python3 ${WorkspaceFolder}/server.py",
+            "args": [
+            ],
+        },
+        {
+            "label": "startclient",
+            "type": "shell",
+            "command": "python3 \"${workspaceFolder}/client/client.py\"",
+            "args": [],
+        },
+        {
+            "label": "Run in an external terminal",
+            "type": "shell",
+            "command": "terminator -c \"${workspaceFolder}/.venv/bin/python\"",
+            "args": [
+                "server.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/server"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new"
+            },
+            "problemMatcher": [],
+            "isBackground": true
+        },
+        {
+            "label": "Check Server Virtual Environment",
+            "type": "shell",
+            "command": "/home/peb/PROJECTS/Python/SafeMessengerWorkspace/.venv/bin/python",
+            "args": [
+                "check_env.py"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/server"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Install Server Dependencies",
+            "type": "shell",
+            "command": "/home/peb/PROJECTS/Python/SafeMessengerWorkspace/.venv/bin/python",
+            "args": [
+                "-m",
+                "pip",
+                "install",
+                "-r",
+                "requirements.txt"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/server"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

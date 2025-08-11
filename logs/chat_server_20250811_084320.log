@@ -1,0 +1,55 @@
+2025-08-11 08:43:20,629 - __main__ - [INFO] [CONFIG] No config file found, using defaults
+2025-08-11 08:43:21,053 - __main__ - [INFO] Server RSA keys generated successfully
+2025-08-11 08:43:21,053 - __main__ - [INFO] [SSL] Generating self-signed certificate...
+2025-08-11 08:43:21,165 - __main__ - [INFO] [SSL] Generated certificate: server.crt
+2025-08-11 08:43:21,165 - __main__ - [INFO] [SSL] Generated private key: server.key
+2025-08-11 08:43:21,165 - __main__ - [INFO] 🖥️  Starting server with interactive console...
+2025-08-11 08:43:21,165 - __main__ - [INFO] 📝 Type 'help' in the console for available commands
+2025-08-11 08:43:21,165 - __main__ - [INFO] Starting secure chat server on 0.0.0.0:8100
+2025-08-11 08:43:21,165 - __main__ - [INFO] [DEBUG] Starting secure chat server on 0.0.0.0:8100
+2025-08-11 08:43:21,168 - __main__ - [INFO] 🖥️  Server Console Started
+2025-08-11 08:43:21,169 - __main__ - [INFO] Type 'help' for available commands
+2025-08-11 08:43:21,169 - __main__ - [INFO] --------------------------------------------------
+2025-08-11 08:43:21,208 - __main__ - [INFO] [DEBUG] Database initialized
+2025-08-11 08:43:21,219 - __main__ - [INFO] [SSL] SSL context created using server.crt
+2025-08-11 08:43:21,235 - __main__ - [INFO] [DEBUG] About to start websockets.serve
+2025-08-11 08:43:21,235 - __main__ - [INFO] [SSL] Starting secure WebSocket server (wss://) on 0.0.0.0:8100
+2025-08-11 08:43:21,237 - __main__ - [INFO] [DEBUG] websockets.serve started
+2025-08-11 08:43:21,237 - __main__ - [INFO] [DEBUG] WebSocket built-in PING/PONG disabled - using custom protocol
+2025-08-11 08:43:21,237 - __main__ - [INFO] Server started successfully on 0.0.0.0:8100
+2025-08-11 08:43:21,237 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:22,238 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:23,239 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:24,240 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:25,241 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:26,242 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:27,243 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:28,244 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:29,245 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:30,246 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:31,247 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:32,248 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:33,249 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:34,250 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:35,251 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:36,252 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:37,253 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:38,254 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:39,255 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:40,256 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:41,257 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:42,258 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:43,259 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:44,260 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:45,261 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:46,262 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:47,263 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:48,265 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:49,266 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:50,267 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:51,268 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:52,269 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:53,270 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:54,271 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:55,272 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check
+2025-08-11 08:43:56,273 - __main__ - [INFO] [DEBUG] No connected users, skipping ping check

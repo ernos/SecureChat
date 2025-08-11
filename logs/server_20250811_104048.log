@@ -1,0 +1,28 @@
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Loaded server configuration:
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Host: 0.0.0.0
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Port: 8100
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] SSL: Enabled
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Console: Enabled
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Debug Terminal: Disabled
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Ping Interval: 30s
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Ping Timeout: 40s
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Certificate: server/keys/certificate.crt
+2025-08-11 10:40:48,277 - __main__ - [INFO] [CONFIG] Private Key: server/keys/keyfile2.key
+2025-08-11 10:40:48,467 - __main__ - [INFO] Server RSA keys generated successfully
+2025-08-11 10:40:48,467 - __main__ - [INFO] [SSL] Generating self-signed certificate...
+2025-08-11 10:40:48,693 - __main__ - [INFO] [SSL] Generated certificate: server/keys/certificate.crt
+2025-08-11 10:40:48,693 - __main__ - [INFO] [SSL] Generated private key: server/keys/keyfile2.key
+2025-08-11 10:40:48,693 - __main__ - [INFO] 🖥️  Starting server with interactive console...
+2025-08-11 10:40:48,693 - __main__ - [INFO] 📝 Type 'help' in the console for available commands
+2025-08-11 10:40:48,693 - __main__ - [INFO] Starting secure chat server on 0.0.0.0:8100
+2025-08-11 10:40:48,693 - __main__ - [INFO] [DEBUG] Starting secure chat server on 0.0.0.0:8100
+2025-08-11 10:40:48,693 - __main__ - [INFO] 🖥️  Server Console Started
+2025-08-11 10:40:48,694 - __main__ - [INFO] Type 'help' for available commands
+2025-08-11 10:40:48,694 - __main__ - [INFO] --------------------------------------------------
+2025-08-11 10:40:51,161 - __main__ - [INFO] [DEBUG] Database initialized
+2025-08-11 10:40:51,162 - __main__ - [INFO] [SSL] SSL context created using server/keys/certificate.crt
+2025-08-11 10:40:51,163 - __main__ - [INFO] [DEBUG] About to start websockets.serve
+2025-08-11 10:40:51,163 - __main__ - [INFO] [SSL] Starting secure WebSocket server (wss://) on 0.0.0.0:8100
+2025-08-11 10:40:51,163 - __main__ - [INFO] [DEBUG] websockets.serve started
+2025-08-11 10:40:51,164 - __main__ - [INFO] [DEBUG] WebSocket built-in PING/PONG disabled - using custom protocol
+2025-08-11 10:40:51,164 - __main__ - [INFO] Server started successfully on 0.0.0.0:8100

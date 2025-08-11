@@ -1,0 +1,16 @@
+2025-08-11 10:13:23,672 - __main__ - [INFO] [CONFIG] Loaded server configuration:
+2025-08-11 10:13:23,672 - __main__ - [INFO] [CONFIG] Host: 0.0.0.0
+2025-08-11 10:13:23,672 - __main__ - [INFO] [CONFIG] Port: 8100
+2025-08-11 10:13:23,672 - __main__ - [INFO] [CONFIG] SSL: Enabled
+2025-08-11 10:13:23,672 - __main__ - [INFO] [CONFIG] Console: Enabled
+2025-08-11 10:13:23,673 - __main__ - [INFO] [CONFIG] Debug Terminal: Disabled
+2025-08-11 10:13:23,673 - __main__ - [INFO] [CONFIG] Ping Interval: 30s
+2025-08-11 10:13:23,673 - __main__ - [INFO] [CONFIG] Ping Timeout: 40s
+2025-08-11 10:13:23,673 - __main__ - [INFO] [CONFIG] Certificate: server/serv-certificate.crt
+2025-08-11 10:13:23,673 - __main__ - [INFO] [CONFIG] Private Key: server/data/serv-private.key
+2025-08-11 10:13:23,811 - __main__ - [INFO] Server RSA keys generated successfully
+2025-08-11 10:13:23,811 - __main__ - [INFO] [SSL] Generating self-signed certificate...
+2025-08-11 10:13:24,059 - __main__ - [ERROR] Server crashed: [Errno 2] No such file or directory: 'server/data/serv-private.key'
+2025-08-11 10:13:24,059 - __main__ - [INFO] [ERROR] Server crashed: [Errno 2] No such file or directory: 'server/data/serv-private.key'
+2025-08-11 10:13:24,059 - __main__ - [INFO] Server shutdown complete
+2025-08-11 10:13:24,059 - __main__ - [INFO] Server shutdown complete
