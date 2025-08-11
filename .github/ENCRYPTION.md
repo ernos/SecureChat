@@ -10,10 +10,11 @@
 ---
 
  ## 2.Key Concepts
-  - **RSA:** Used for public key exchange and encrypting the AES session key during handshake.
-  - **AES:** Used for encrypting all message payloads after the handshake.
-  - **HMAC/RSA Signatures:** Used to sign messages for integrity and authentication.
-
+  ### Encryptions Used ###
+   - **RSA:** Used for public key exchange and encrypting the AES session key during handshake.
+   - **AES:** Used for encrypting all message payloads after the handshake.
+   - **HMAC/RSA Signatures:** Used to sign messages for integrity and authentication.
+   Read (`ENCRYPTION.md`)[`ENCRYPTION.md`] for more information on encryptions used.
 ---
 
  ## 3.Functions & Usage
@@ -26,11 +27,10 @@
   - `decrypt_aes(ciphertext: bytes, key: bytes) -> bytes`: Decrypts AES-encrypted data.
   - `sign_message(message: bytes, private_key: str) -> str`: Signs a message using the user's RSA private key.
   - `verify_signature(message: bytes, signature: str, public_key: str) -> bool`: Verifies a message signature.
-
- #### 3.1.1Usage Example (Client):
- 1. On registration, generate RSA keypair and send public key to server.
- 2. On connection, receive server public key, generate AES session key, encrypt with server's public key, and send.
- 3. For each message, encrypt payload with AES session key, sign with private key.
+ #### Usage Example (Client):
+  1. On registration, generate RSA keypair and send public key to server.
+  2. On connection, receive server public key, generate AES session key, encrypt with server's public key, and send.
+  3. For each message, encrypt payload with AES session key, sign with private key.
 
  ---
 
@@ -43,18 +43,17 @@
   - `decrypt_aes(ciphertext: bytes, key: bytes) -> bytes`: Decrypts client payloads.
   - `sign_message(message: bytes, private_key: str) -> str`: Signs server messages.
   - `verify_signature(message: bytes, signature: str, public_key: str) -> bool`: Verifies client signatures.
- #### 4.1Usage Example (Server):
- 1. On client connect, send server public key.
- 2. Receive AES session key from client, decrypt with server private key.
- 3. For each message, decrypt payload with AES session key, verify signature.
-
+  #### 4.1Usage Example (Server):
+    1. On client connect, send server public key.
+    2. Receive AES session key from client, decrypt with server private key.
+    3. For each message, decrypt payload with AES session key, verify signature.
 ---
 
  ## 5.Integration Points
+ ---
   - All message payloads are encrypted and signed before being sent over the network.
   - Handshake and key exchange occur before any sensitive data is transmitted.
   - See `client/crypto_utils.py` and `server/crypto_utils.py` for implementation details.
-
 ---
 
  ## 6.References

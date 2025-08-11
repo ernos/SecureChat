@@ -50,8 +50,8 @@ This document describes the client database table structures, data manipulation,
 ---
 
 ## Usage Notes
-	- All database operations are asynchronous and must be awaited.
-	- The schema is auto-migrated/created on first use for each user.
-	- The `friends` table is the authoritative source for friend metadata and public keys.
-	- The `messages` table stores all messages, with encryption and expiry metadata.
-	- For further details, see the implementation in `client/database_manager.py`.
+- All database operations are asynchronous and must be awaited.
+- The schema is auto-migrated/created on first use for each user.
+- The `friends` table is the authoritative source for friend metadata and public keys.
+- The `messages` table stores all messages, with encryption and expiry metadata.
+- For further details, see the implementation in `client/database_manager.py`.

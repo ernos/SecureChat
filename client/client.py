@@ -16,7 +16,7 @@ import base64
 import sys
 import time
 
-config_file = "data/client_config.json"
+config_file = "config.json"
 
 from pathlib import Path
 from datetime import datetime
@@ -50,12 +50,12 @@ LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOG_DIR / f"chat_client_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
 WORKSPACE_PATH = "."
-SERVER_CERT_FILE = "data/server_ssl_cert.crt"
+SERVER_CERT_FILE = "server_certificate.crt"
 
 # These are used for encrypting messages between users. Each user has a unique key pair.
-RSA_USER_PUBLIC_KEY_PATH = "_PRIVATE_RSA.pem"
+RSA_USER_PRIVATE_KEY_PATH = "_PRIVATE_RSA.pem"
 RSA_USER_PUBLIC_KEY_PATH = "_PUBLIC_RSA.pem"
-RSA_KEYS_PATH = "data/client_key/"
+RSA_KEYS_PATH = "keys/"
 
 
 
@@ -72,110 +72,37 @@ logger.addHandler(file_handler)
 # Prevent logs from propagating to the root logger (keeps console clean)
 logger.propagate = True
 
-class ChatClient: 
+class ChatClient:
+    raw_json_to_send = None
+    def set_username(self, username: str):
+        self.username = username
 
-    raw_json_to_send = None    
-    IsConnectedToServer: bool = False
-    lastError: Optional[str] = None
-    
-    def __init__(self, config_file: str = config_file):
-        self.config: Dict[str, Any] = self._load_config(config_file)
-        self.ssl_cert: Optional[str] = SERVER_CERT_FILE
-        self.username: str = self.config["client"]["username"]
-        self.password: str = self.config["client"]["password"]
-        # Construct server URI based on SSL setting
+    def set_password(self, password: str):
+        self.password = password
+
+    def __init__(self):
+        self.config = self.load_config(config_file)
+        self.ssl_cert = self.config["server"].get("ssl_cert_path", SERVER_CERT_FILE)
+        self.username = self.config["client"]["username"]
+        self.password = self.config["client"]["password"]
         protocol = "wss" if self.config["server"].get("use_ssl", True) else "ws"
-        self.server_uri: str = f"{protocol}://{self.config['server']['host']}:{self.config['server']['port']}"
-        self.websocket: Optional[Any] = None
-        self.private_key: Optional[Any] = None
-        self.public_key: Optional[Any] = None
-        self.server_public_key: Optional[Any] = None
-        self.connected_users: Dict[str, Any] = {}
-        self.authenticated: bool = False
-        self.friends_db: Dict[str, Dict[str, Any]] = {}  # Simple in-memory friends storage
-        
-        # Create keys directory if needed
+        self.server_uri = f"{protocol}://{self.config['server']['host']}:{self.config['server']['port']}"
+        self.private_key = None
+        self.public_key = None
+        self.server_public_key = None
+        self.connected_users = {}
+        self.authenticated = False
+        self.friends_db = {}
         if self.config["encryption"]["store_keys"]:
             Path(self.config["encryption"]["keys_directory"]).mkdir(exist_ok=True)
-        
-        # Load or generate client keys
-        self._initialize_keys()
-        
-    def _initialize_keys(self):
-        """Initialize or load RSA keys"""
-        """These are used for encrypting and decrypting messages"""
-        private_rsa_keyfile = RSA_KEYS_PATH / f"{self.username}_private.pem"
-        public_rsa_keyfile = RSA_KEYS_PATH / f"{self.username}_public.pem"
-        
-        if (self.config["encryption"]["store_keys"] and 
-            private_rsa_keyfile.exists() and public_rsa_keyfile.exists()):
-            # Load existing keys
-            try:
-                with open(private_rsa_keyfile, 'rb') as f:
-                    self.private_key = serialization.load_pem_private_key(
-                        f.read(), password=None, backend=default_backend()
-                    )
-                with open(public_rsa_keyfile, 'rb') as f:
-                    self.public_key = serialization.load_pem_public_key(
-                        f.read(), backend=default_backend()
-                    )
-                print(f"✓ Loaded existing keys for {self.username}")
-            except Exception as e:
-                print(f"❌ Error loading keys: {e}")
-                print("Generating new keys...")
-                self._generate_keys()
-        else:
-            # Generate new keys
-            self._generate_keys()
-    
-    def _generate_keys(self):
-        """Generate RSA key pair for the client"""
-        print(f"🔑 Generating new RSA keys (size: {self.config['encryption']['key_size']})...")
-        self.private_key = rsa.generate_private_key(
-            public_exponent=65537,
-            key_size=self.config["encryption"]["key_size"],
-            backend=default_backend()
-        )
-        self.public_key = self.private_key.public_key()
-        
-        # Save keys if configured to do so
-        if self.config["encryption"]["store_keys"]:
-            self._save_keys()
-        
-        print("✓ Keys generated successfully")
-    
-    def _save_keys(self):
-        """Save keys to files"""
-        if self.private_key is None or self.public_key is None:
-            print(f"Failed to save keys: keys not initialized")
-            raise ValueError("Keys not initialized")
-            
-        CLIENT_KEYS_PATH = Path(self.config["encryption"]["keys_directory"])
-        CLIENT_KEYS_PATH.mkdir(exist_ok=True)
-        
-        private_key_file = CLIENT_KEYS_PATH / f"{self.username}_private.pem"
-        public_key_file = CLIENT_KEYS_PATH / f"{self.username}_public.pem"
-        
-        # Save private key
-        private_pem = self.private_key.private_bytes(
-            encoding=serialization.Encoding.PEM,
-            format=serialization.PrivateFormat.PKCS8,
-            encryption_algorithm=serialization.NoEncryption()
-        )
-        with open(private_key_file, 'wb') as f:
-            f.write(private_pem)
-        
-        # Save public key
-        public_pem = self.public_key.public_bytes(
-            encoding=serialization.Encoding.PEM,
-            format=serialization.PublicFormat.SubjectPublicKeyInfo
-        )
-        with open(public_key_file, 'wb') as f:
-            f.write(public_pem)
-        
-        print(f"✓ Keys saved to {CLIENT_KEYS_PATH}")
+        from crypto_handler import CryptoHandler
+        from network import ChatClientNetwork
+        self.crypto = CryptoHandler(self)
+        self.crypto.initialize_keys()
+        self.network = ChatClientNetwork(self)
 
-    def _load_config(self, file=config_file) -> Dict[str, Any]:
+
+    def load_config(self, file=config_file) -> Dict[str, Any]:
         """Load configuration from JSON file"""
         try:
             with open(file, 'r') as f:
@@ -185,13 +112,13 @@ class ChatClient:
         except FileNotFoundError:
             print(f"❌ Configuration file {file} not found!")
             print("Creating default configuration...")
-            self._create_default_config(file)
+            self.create_default_config(file)
             sys.exit(1)
         except json.JSONDecodeError as e:
             print(f"❌ Invalid JSON in {file}: {e}")
             sys.exit(1)
     
-    def _create_default_config(self, config_file: str):
+    def create_default_config(self, config_file: str):
         """Create a default configuration file"""
         default_config: Dict[str, Any] = {
             "client": {
@@ -234,7 +161,7 @@ class ChatClient:
         print(f"✓ Created default config at {config_file}")
         print("Please edit the configuration file and run the client again.")
     
-    def _log(self, message: str):
+    def log(self, message: str):
         """Log message if verbose logging is enabled"""
         if self.config["debug"]["verbose_logging"]:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -245,17 +172,15 @@ class ChatClient:
                 with open(self.config["debug"]["log_file"], 'a') as f:
                     f.write(log_msg + "\n")
     
-    def _ensure_connected(self):
+    def ensure_connected(self):
         """Ensure websocket is connected"""
         if self.websocket is None:
             raise ValueError("Not connected to server")
     
-    def _ensure_private_key(self):
-        """Ensure private key is available"""
-        if self.private_key is None:
-            raise ValueError("Private key not initialized")
+    def ensure_private_key(self):
+        self.crypto.ensure_private_key()
     
-    async def _send_message(self, message: Dict[str, Any]):
+    async def send_message(self, message: Dict[str, Any]):
         """Safely send a message through websocket"""
         if self.websocket is None:
             raise ValueError("Not connected to server")
@@ -375,7 +300,7 @@ class ChatClient:
     
     async def login(self):
         """Login to the server"""
-        self._ensure_connected()
+        self.ensure_connected()
         
         login_message: Dict[str, Any] = {
             "type": "login",
@@ -383,7 +308,7 @@ class ChatClient:
             "password": self.password
         }
         
-        await self._send_message(login_message)
+        await self.send_message(login_message)
         
         try:
             response = await asyncio.wait_for(self.websocket.recv(), timeout=5.0)  # type: ignore
@@ -453,11 +378,11 @@ class ChatClient:
             "public_key": public_key_pem
         }
         
-        self._log(f"Sending registration for user: {self.username}")
+        self.log(f"Sending registration for user: {self.username}")
         if self.websocket is None:
             raise ValueError("Not connected to server")
             
-        await self._send_message(registration_message)
+        await self.send_message(registration_message)
     
     async def listen_for_messages(self):
         """Listen for incoming messages"""
@@ -476,7 +401,7 @@ class ChatClient:
         finally:
             print("[DEBUG] listen_for_messages finally block reached. Websocket closed or error occurred.")
 
-    async def handle_message(self, message: Dict[str, Any]):
+    async def handle_message(self, message: Dict[str, Any]) -> str:
         message_type = message.get("type")
         timestamp = ""
         if self.config["ui"]["show_timestamps"]:
@@ -493,6 +418,7 @@ class ChatClient:
             print(f"✅ {timestamp}Successfully registered as {username}")
             if room:
                 print(f"🏠 {timestamp}Assigned to room: {room}")
+            
         elif message_type == "user_joined":
             username = message.get('username')
             print(f"👋 {timestamp}User {username} joined the chat")
@@ -586,6 +512,7 @@ class ChatClient:
 
         if message_type != "PING":
             print(f"Received {message_type}: {message}")
+        return message_type
     
     def encrypt_message(self, message: str, recipient_public_key: Any) -> str:
         """Encrypt a message using recipient's public key"""
@@ -601,7 +528,7 @@ class ChatClient:
     
     def decrypt_message(self, encrypted_message: str) -> str:
         """Decrypt a message using private key"""
-        self._ensure_private_key()
+        self.ensure_private_key()
         encrypted_data = base64.b64decode(encrypted_message.encode())
         decrypted = self.private_key.decrypt(  # type: ignore
             encrypted_data,
@@ -615,17 +542,17 @@ class ChatClient:
     
     async def get_unread_messages(self):
         """Get unread messages"""
-        self._ensure_connected()
-        await self._send_message({"type": "get_unread_messages"})
+        self.ensure_connected()
+        await self.send_message({"type": "get_unread_messages"})
     
     async def send_public_message(self, content: str):
         """Send a public message"""
-        self._ensure_connected()
+        self.ensure_connected()
         message: Dict[str, Any] = {
             "type": "public_message",
             "content": content
         }
-        await self._send_message(message)  # type: ignore
+        await self.send_message(message)  # type: ignore
         print(f"Sent public message: {content}")
 
     async def send_private_message(self, recipient: str, content: str, encrypt: Optional[bool] = None):
@@ -642,7 +569,7 @@ class ChatClient:
             encrypted_content = content
             encrypted = False
         
-        self._ensure_connected()
+        self.ensure_connected()
         
         message: Dict[str, Any] = {
             "type": "private_message",
@@ -656,7 +583,7 @@ class ChatClient:
 
     async def send_friend_request(self, friend_username: str):
         """Send a friend request"""
-        self._ensure_connected()
+        self.ensure_connected()
         message = {
             "type": "send_friend_request",
             "friend_username": friend_username
@@ -666,7 +593,7 @@ class ChatClient:
 
     async def accept_friend_request(self, friend_username: str):
         """Accept a friend request"""
-        self._ensure_connected()
+        self.ensure_connected()
         message = {
             "type": "accept_friend_request",
             "friend_username": friend_username
@@ -676,7 +603,7 @@ class ChatClient:
 
     async def decline_friend_request(self, friend_username: str):
         """Decline a friend request"""
-        self._ensure_connected()
+        self.ensure_connected()
         message = {
             "type": "decline_friend_request",
             "friend_username": friend_username
@@ -686,21 +613,21 @@ class ChatClient:
 
     async def get_friends_list(self):
         """Get list of friends"""
-        self._ensure_connected()
+        self.ensure_connected()
         message = {"type": "get_friends_list"}
         await self.websocket.send(json.dumps(message))  # type: ignore
         print("Requested friends list")
 
     async def get_friend_requests(self):
         """Get pending friend requests"""
-        self._ensure_connected()
+        self.ensure_connected()
         message = {"type": "get_friend_requests"}
         await self.websocket.send(json.dumps(message))  # type: ignore
         print("Requested friend requests list")
 
     async def remove_friend(self, friend_username: str):
         """Remove a friend"""
-        self._ensure_connected()
+        self.ensure_connected()
         message = {
             "type": "remove_friend",
             "friend_username": friend_username
@@ -840,8 +767,6 @@ quit                               - Exit
         except KeyboardInterrupt:
             break
         
-
-
 async def main():
     # Support username/password as command-line arguments
     username = None
@@ -878,10 +803,3 @@ async def main():
         interactive_shell(client)
     )
 
-if __name__ == "__main__":
-    try:
-        asyncio.run(main())
-    except KeyboardInterrupt:
-        print("\n👋 Client shutting down...")
-    except Exception as e:
-        print(f"❌ Fatal error: {e}")

@@ -1,0 +1,35 @@
+{
+    "client": {
+        "username": "your_username",
+        "password": "your_password",
+        "auto_login": true,
+        "auto_generate_keys": true
+    },
+    "server": {
+        "host": "localhost",
+        "port": 8100,
+        "use_ssl": true,
+        "connection_timeout": 30,
+        "ping_interval": 30,
+        "ping_timeout": 40,
+        "ssl_enabled": true,
+        "ssl_cert_path": "server_certificate.crt"
+    },
+    "encryption": {
+        "key_size": 2048,
+        "auto_encrypt_private_messages": false,
+        "store_keys": true,
+        "keys_directory": "data/clientkeys/"
+    },
+    "ui": {
+        "show_timestamps": true,
+        "show_encryption_status": true,
+        "auto_accept_friend_requests": false,
+        "notification_sound": false
+    },
+    "debug": {
+        "verbose_logging": false,
+        "save_message_history": true,
+        "log_file": "client.log"
+    }
+}
