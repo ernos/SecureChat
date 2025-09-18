@@ -16,6 +16,10 @@ build/
 client/data/*.db
 server/data/*.db
 
+*.pem
+*.key
+*.crt
+
 # Logs
 /logs/
 *.log
