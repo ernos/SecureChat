@@ -1,0 +1,16 @@
+2025-09-18 15:57:25,792 - __main__ - [INFO] [CONFIG] Loaded server configuration:
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Host: 0.0.0.0
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Port: 8100
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] SSL: Enabled
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Console: Enabled
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Debug Terminal: Disabled
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Ping Interval: 30s
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Ping Timeout: 40s
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Certificate: server/keys/certificate.crt
+2025-09-18 15:57:25,793 - __main__ - [INFO] [CONFIG] Private Key: server/keys/keyfile2.key
+2025-09-18 15:57:25,845 - __main__ - [INFO] Server RSA keys generated successfully
+2025-09-18 15:57:25,859 - __main__ - [INFO] [SSL] Generating self-signed certificate...
+2025-09-18 15:57:25,996 - __main__ - [ERROR] Server crashed: [Errno 2] No such file or directory: 'server/keys/certificate.crt'
+2025-09-18 15:57:25,996 - __main__ - [INFO] [ERROR] Server crashed: [Errno 2] No such file or directory: 'server/keys/certificate.crt'
+2025-09-18 15:57:25,996 - __main__ - [INFO] Server shutdown complete
+2025-09-18 15:57:25,996 - __main__ - [INFO] Server shutdown complete

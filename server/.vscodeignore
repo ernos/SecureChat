@@ -8,9 +8,9 @@ dist/
 build/
 .eggs/
 
-.venv
-.venv/
-.venv/*
+../.venv
+../.venv/
+../.venv/*
 
 # SQLite DB
 client/data/*.db
@@ -36,7 +36,7 @@ server/data/*.crt
 client/data/*.key
 
 # Env
-.env
+.venv
 .venv/
 
 # OS

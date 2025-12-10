@@ -3,8 +3,8 @@
         "host": "0.0.0.0",
         "port": 8100,
         "ssl_enabled": true,
-        "ssl_cert_path": "server/keys/certificate.crt",
-        "ssl_key_path": "server/keys/keyfile2.key",
+        "ssl_cert_path": "server/server.crt",
+        "ssl_key_path": "server/server.key",
         "max_connections": 100,
         "ping_interval": 30,
         "ping_timeout": 40
